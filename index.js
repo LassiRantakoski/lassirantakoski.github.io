@@ -46,7 +46,7 @@ function generateWord(){
 }
 
 function laskuri(){
-    let countdown=5;
+    let countdown=10;
     const timerDiv=document.getElementById('countdown');
     
     const interval=setInterval(()=> {
@@ -58,7 +58,7 @@ function laskuri(){
         
         
         generateWord();
-        countdown=5;
+        countdown=10;
         }
     },1000);
 }
