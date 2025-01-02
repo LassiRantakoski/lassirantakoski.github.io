@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bassotreenit</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button onclick="location.href='index.html'" id="takaisinNappi">Takaisin etusivulle</button>
+    <h1>Bassotreenit</h1>
+    <div id="nappiDiv">
+    <button onclick="playAm()" class="a">Am</button> 
+    <button onclick="playCm()" class="a">Cm</button>
+    <button onclick="playGm()" class="a">Gm</button>
+  </div>
+    
+    <div id="kuvaDiv"></div>
+    <iframe id="youtubePlayer" width="560" height="315"
+    src=""
+    title="YouTube video player"
+    frameborder="0"
+    alloW="accelometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+    <script src="index.js"></script>
+  </body>
+  </html>
