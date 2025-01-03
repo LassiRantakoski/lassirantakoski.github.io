@@ -83,7 +83,7 @@ button {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
     transition: background-color 0.3s, transform 0.2s;
 }
 
@@ -103,7 +103,7 @@ iframe {
     margin: 30px auto;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    
 }
 
 /* Countdown ja randomWord */
@@ -115,7 +115,7 @@ iframe {
     background-color: #ecf0f1;
     border-radius: 5px;
     width: fit-content;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
 }
 
 
@@ -150,3 +150,13 @@ a:hover {
 .etusivuNappi{
     text-align:center;
 }
+
+#youtubePlayer1{
+display:block;
+}
+
+#kuvaDiv{display: flex;
+    gap: 10px; /* Välit videoiden välillä */
+    flex-wrap: wrap; /* Sallii rivin vaihdon, jos tila loppuu */
+    justify-content: center; /* Keskittää videot */
+    align-items: center; /* Tasoittaa videot pystysuunnassa */}
