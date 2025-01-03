@@ -141,3 +141,35 @@ function playGm(){
     kuvaDiv.appendChild(img);
 }
 
+
+function jammailuHub() {
+    const nappiDiv = document.getElementById("nappiDiv");
+    nappiDiv.innerHTML='';
+    youtubePlayer.src='';
+    kuvaDiv.innerHTML='';
+    nappiDiv.innerHTML = `
+        <button onclick="playAm()" class="a">Am</button> 
+        <button onclick="playCm()" class="a">Cm</button>
+        <button onclick="playGm()" class="a">Gm</button>
+    `;
+}
+function sormiTreeniHub(){
+    const shorts=["3MgNeQqwy9g","d9C6ThdNpmU","Z9wVNHaEHIQ","uj7duXsmW5w"]
+    const nappiDiv=document.getElementById("nappiDiv");
+    nappiDiv.innerHTML='';
+    youtubePlayer.src='';
+    kuvaDiv.innerHTML='';
+
+    for (const video of shorts){
+        kuvaDiv.innerHTML+=`<iframe id="youtubePlayer1" width="315" height="560"
+    src="${link+video}"
+    title="YouTube video player"
+    frameborder="0"
+    alloW="accelometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe> `;
+    }
+    
+
+    
+}
