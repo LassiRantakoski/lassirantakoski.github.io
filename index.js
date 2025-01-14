@@ -45,13 +45,13 @@ const words = [
     "MUODOSTUS", "KIILTO", "PÄÄTÖKSENTEKO", "VOIMAKKUUS"
 ];
 
-const sointuListaGm=["Gm-1.PNG","Gm-2.PNG","Gm-3.PNG","Gm-4.PNG","Gm-5.PNG","Gm-6.PNG","Gm-7.PNG","Gm-8.PNG","Gm-9.PNG","Gm-10.PNG","Gm-11.PNG","Gm-12.PNG","Gm-13.PNG","Gm-14.PNG","Gm-15.PNG","Gm-16.PNG"];
-const sointuListaAdim=["Adim-1.PNG","Adim-2.PNG","Adim-3.PNG","Adim-4.PNG","Adim-5.PNG","Adim-6.PNG","Adim-7.PNG","Adim-8.PNG","Adim-9.PNG","Adim-10.PNG","Adim-11.PNG","Adim-12.PNG"]
-const sointuListaBb=["Bb-1.PNG","Bb-2.PNG","Bb-3.PNG","Bb-4.PNG","Bb-5.PNG","Bb-6.PNG","Bb-7.PNG","Bb-8.PNG","Bb-9.PNG","Bb-10.PNG","Bb-11.PNG","Bb-12.PNG","Bb-13.PNG","Bb-14.PNG","Bb-15.PNG","Bb-16.PNG"]
-const sointuListaCm=["Cm-2.PNG","Cm-2.PNG","Cm-3.PNG","Cm-4.PNG","Cm-5.PNG","Cm-6.PNG","Cm-7.PNG","Cm-8.PNG","Cm-9.PNG","Cm-10.PNG","Cm-11.PNG","Cm-12.PNG","Cm-13.PNG","Cm-14.PNG","Cm-15.PNG","Cm-16.PNG",]
-const sointuListaD=["D-1.PNG","D-2.PNG","D3.PNG","D-4.PNG","D-5.PNG","D-6.PNG","D-7.PNG","D-8.PNG","D-9.PNG","D-10.PNG","D-11.PNG","D-12.PNG","D-13.PNG","D-14.PNG","D-15.PNG","D-16.PNG"];
-const sointuListaEbM=["EbM.PNG","EbM-2.PNG","EbM-3.PNG","EbM-4.PNG","EbM-5.PNG","EbM-6.PNG","EbM-7.PNG","EbM-8.PNG","EbM-9.PNG","EbM-10.PNG","EbM-11.PNG","EbM-12.PNG","EbM-13.PNG","EbM-14.PNG","EbM-15.PNG"];
-const sointuListaF=["F-1.PNG","F-2.PNG","F-3.PNG","F-4.PNG","F-5.PNG","F-6.PNG","F-7.PNG","F-8.PNG","F-9.PNG","F-10.PNG","F-11.PNG","F-12.PNG","F-13.PNG","F-14.PNG"];
+const sointuListaGm=["Gm-1.png","Gm-2.png","Gm-3.png","Gm-4.png","Gm-5.png","Gm-6.png","Gm-7.png","Gm-8.png","Gm-9.png","Gm-10.png","Gm-11.png","Gm-12.png","Gm-13.png","Gm-14.png","Gm-15.png","Gm-16.png"];
+const sointuListaAdim=["Adim-1.png","Adim-2.png","Adim-3.png","Adim-4.png","Adim-5.png","Adim-6.png","Adim-7.png","Adim-8.png","Adim-9.png","Adim-10.png","Adim-11.png","Adim-12.png"]
+const sointuListaBb=["Bb-1.png","Bb-2.png","Bb-3.png","Bb-4.png","Bb-5.png","Bb-6.png","Bb-7.png","Bb-8.png","Bb-9.png","Bb-10.png","Bb-11.png","Bb-12.png","Bb-13.png","Bb-14.png","Bb-15.png","Bb-16.png"]
+const sointuListaCm=["Cm-2.png","Cm-2.png","Cm-3.png","Cm-4.png","Cm-5.png","Cm-6.png","Cm-7.png","Cm-8.png","Cm-9.png","Cm-10.png","Cm-11.png","Cm-12.png","Cm-13.png","Cm-14.png","Cm-15.png","Cm-16.png",]
+const sointuListaD=["D-1.png","D-2.png","D3.png","D-4.png","D-5.png","D-6.png","D-7.png","D-8.png","D-9.png","D-10.png","D-11.png","D-12.png","D-13.png","D-14.png","D-15.png","D-16.png"];
+const sointuListaEbM=["EbM.png","EbM-2.png","EbM-3.png","EbM-4.png","EbM-5.png","EbM-6.png","EbM-7.png","EbM-8.png","EbM-9.png","EbM-10.png","EbM-11.png","EbM-12.png","EbM-13.png","EbM-14.png","EbM-15.png"];
+const sointuListaF=["F-1.png","F-2.png","F-3.png","F-4.png","F-5.png","F-6.png","F-7.png","F-8.png","F-9.png","F-10.png","F-11.png","F-12.png","F-13.png","F-14.png"];
 
 const link="https://www.youtube.com/embed/"
 let wordChecker=[];
