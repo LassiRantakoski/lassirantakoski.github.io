@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lassi – CV & Projektit</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">Lassi Rantakoski</a>
+    <nav class="nav" id="nav">
+      <a href="#about">Minusta</a>
+      <a href="#projects">Projektit</a>
+    </nav>
+    <button class="icon-btn hamburger" id="menuBtn" aria-label="Avaa valikko">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Insinööri, joka innostuu datasta ja kehittämisestä</h1>
+      <p>Käytännönläheinen, välillä huumorintajuinenkin</p>
+
+    </section>
+
+    <section id="about" class="card">
+      <h2>Minusta:</h2>
+
+      <ul>
+        <li>Materiaalitekniikan DI, Turun yliopisto, 2025</li>
+        <li>Energia- ja ympäristötekniikan insinööri (AMK), Turun ammattikorkeakoulu, 2019</li>
+        <li>Kiinnostunut data-analytiikasta, toivon seuraavan roolini jotenkin liittyvät dataan, olen kuitenkin lähtökohtaisesti avoin kaikelle</li>
+        <li>Musiikin tuotanto harrastuksena, yritän laittaa tästä videon myöhemmin</li>
+        <li><a href="https://www.linkedin.com/in/lassi-rantakoski/">https://www.linkedin.com/in/lassi-rantakoski/</a></li>
+      </ul>
+    </section>
+
+
+    
+
+    <section id="cv" class="card">
+  <div class="section-head">
+    <h2>Työhistoria:</h2>
+    <button class="toggle-btn" onclick="toggleCv()">Näytä lisää</button>
+  </div>
+<div id="cv-content" class="collapsible">
+  <p><b>Turun Vesihuolto Oy</b>, projektikoordinaattori 2019-2023</p>
+  <ul>
+    <li>Asiakastietojärjestelmän hankinta 
+      <ul>
+        <li>Asiakaspalvelun prosessien kuvaukset, lean</li>
+        <li>Kilpailutus</li>
+        <li>Hankinta</li>
+        <li>Testaus</li>
+        <li>Prosessien muokkaus</li>
+        <li>Kollegoiden koulutus</li>
+      </ul>
+    </li>
+    <li>Data-projektit
+      <ul>
+        <li>Ensimmäisessä projektissa toteutettiin automaattinen kirjeiden lähetys asiakkaille</li>
+        <li>Toisessa projektissa haettiin IoT-vesimittarien data ja tehtiin analytiikkaa mm. missä mittarit on ja onko kuuluvuusongelmia vai mittarit rikki</li>
+        <li>Molemmissa ostajan puolelta mukana, näin hyvin miten konkreettista datan yhdistely on, varsinkin kun tein samaan aikaan yliopistossa tietojenkäsittelytieteen opintoja, sain nopeasti kiinni ajatuksesta. Tästä innostuin kulkemaan kohti data-analyytikon uraa.</li>
+      </ul>
+    </li>
+    <li>Työnjohto
+      <ul>
+        <li>Putkityömaiden aikataulutus ja työnjohto</li>
+        <li>Asentajien työturvallisuudesta vastaaminen</li>
+        <li>Esimieskokemusta 5 vuotta</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p><b>Insinööritoimisto Varsinais-Suomen Kalliotekniikka Oy</b>, Katselmusmies 2018-2019</p>
+  <ul>
+    <li>Louhintatyömaiden ympäristön esi- ja loppukatselmukset</li>
+    <li>Tärinämittareiden asennukset, datan analysointi</li>
+    <li>Asiakaspalvelu ja ihmisten kontaktointi</li>
+    <li>Omien projektien vieminen alusta loppuun itse</li>
+  </ul>
+
+  <p><b>Aiempaa työkokemusta:</b></p>
+  <ul>
+    <li>K-Market, myyjä</li>
+    <li>Punnitse & säästä, myyjä</li>
+    <li>Orthex, Smartstore, myyjä</li>
+    <li>Orthex, Tehdas, kokoonpanija</li>
+    <li>Sonera, Standimyyjä</li>
+  </ul>
+</div>
+    </section>
+
+    <!-- Rivi kahdelle kortille -->
+<div class="grid two-col">
+  <div class="card">
+    <div class="section-head">
+      <h3>Työmotivaatio:</h3>
+      <button class="toggle-btn" onclick="toggleSection('motivation')">Näytä lisää</button>
+    </div>
+    <div id="motivation" class="collapsible">
+      <p>Minua motivoi jatkuva oppiminen ja mahdollisuudet kehittää sekä omaa tekemistäni että laajempia prosesseja. Näen epäonnistumiset arvokkaina oppimisen paikkoina
+        ja askelina kohti onnistumista. Arvostan organisaatioita, 
+        joissa kannustetaan kokeilemiseen, kuitenkin niin että riskit pysyvät hallinnassa ja kokeilut johtavat kehitykseen.</p>
+      <h3>Työfilosofia:</h3>
+      <ol>
+        <li>Sitä saa mitä mittaa eli tiedon ja datan pitäisi ohjata tekemistä. </li>
+        <li>Yhteistyö on kultaa.</li>
+        <li>Tehtävät hoidetaan alusta loppuun asti ja sovitussa aikataulussa.</li>
+      </ol>
+
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="section-head">
+      <h3>Taidot:</h3>
+      <button class="toggle-btn" onclick="toggleSection('skills')">Näytä lisää</button>
+    </div>
+    <div id="skills" class="collapsible">
+        <li><b>Ohjelmointi:</b> </li>
+        <ul>
+          <li>Kiinnostus data-analytiikkaan ja automatisointiin</li>
+          <li>Python</li>
+          <ul>
+          <li>Signaaliprosessointi</li>
+          <li>Pandas</li>
+          <li>Matplotlib</li>
+          <li>Selenium</li>
+          <li>TKinter</li>
+          <li>SQLite</li>
+          </ul>
+          <li>HMTL+CSS+JavaScript</li>
+          <ul> 
+            <li>Kiinnostus prototyyppien tekemisessä ja visualisoinneissa</li>
+          </ul>
+        </ul>
+        <li>Lean Six Sigma -Yellowbelt</li>
+        <li>Julkiset kilpailutukset ja hankinnat</li>
+        <li>Työnjohto</li>
+        <li>Kunnallistekniikka ja veden käsittely</li>
+        <li>Musiikin tuotanto, kotistudio</li>
+    </div>
+  </div>
+</div>
+
+
+
+
+    <section id="projects">
+      <div class="section-head">
+        <h2>Projektit</h2>
+        <div class="filters">
+          <button class="chip is-active" data-filter="all">Kaikki</button>
+          <button class="chip" data-filter="data">Data</button>
+          <button class="chip" data-filter="web">Web</button>
+        </div>
+      </div>
+
+      <div id="projectGrid" class="grid"></div>
+
+      <!-- Modal esittelylle -->
+      <dialog id="projectModal" class="modal">
+      <article class="modal-content large">
+      <button class="icon-btn close" id="closeModal" aria-label="Sulje">✕</button>
+      <h3 id="mTitle"></h3>
+      <p id="mDesc"></p>
+      <div class="video-wrap">
+      <iframe id="mVideo" src="" title="Projektivideo" allowfullscreen></iframe>
+     </div>
+    </article>
+    </dialog>
+
+    
+
+    <section id="contact" class="card">
+      <h2>Yhteys</h2>
+      <p>lassi.rantakoski@gmail.com</p>
+      <p><a href="https://www.linkedin.com/in/lassi-rantakoski/">https://www.linkedin.com/in/lassi-rantakoski/</a></p>
+      
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Lassi. Rakennettu puhtaalla HTML/CSS/JS:llä. Kiitos ChatGPT.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
