@@ -26,7 +26,7 @@ const projects = [
     title: "Sähkö GUI & automaatio",
     desc: "Selenium + Tkinter + SQLite. Hakee kulutukseni Helenin palvelusta sekä spot-hinnat APIn kautta. Laskee erotuksen pörssihinnalle ja kiinteälle hinnalle.",
     tag: "data",
-    video: "https://www.youtube.com/embed/QqNYKiPtI5o"
+    video: "https://www.youtube.com/embed/hoIdrGxqN0g"
   },
   {
     title: "Portfolioweb",
@@ -153,5 +153,6 @@ function toggleSection(id) {
     });
   }
 }
+
 
 
