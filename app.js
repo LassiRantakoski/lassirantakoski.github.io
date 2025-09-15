@@ -1,20 +1,24 @@
 // ---- Perusdata: projektit (täytä omasi) ----
 function toggleCv() {
   const content = document.getElementById("cv-content");
+  const teaser = document.getElementById("cv-teaser");
   const btn = document.querySelector("#cv .toggle-btn");
-  
+
   if (content.style.maxHeight) {
     // jos auki → suljetaan
     content.style.maxHeight = null;
     content.style.opacity = 0;
+    teaser.style.display = "block";   // tuo teaser näkyviin
     btn.textContent = "Näytä lisää";
   } else {
-    // jos kiinni → avataan automaattisesti sisältöön sopivaksi
+    // jos kiinni → avataan
     content.style.maxHeight = content.scrollHeight + "px";
     content.style.opacity = 1;
+    teaser.style.display = "none";   // piilota teaser
     btn.textContent = "Näytä vähemmän";
   }
 }
+
 
 
 const projects = [
