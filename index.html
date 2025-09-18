@@ -8,13 +8,14 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#">Lassi Rantakoski</a>
-    <nav class="nav" id="nav">
-      <a href="#about">Minusta</a>
-      <a href="#projects">Projektit</a>
-    </nav>
-    <button class="icon-btn hamburger" id="menuBtn" aria-label="Avaa valikko">☰</button>
-  </header>
+  <img src="kuva.png" alt="Profiilikuva" class="profile-pic" />
+  <a class="brand" href="#">Lassi Rantakoski</a>
+  <nav class="nav" id="nav">
+    <a href="#about">Minusta</a>
+    <a href="#projects">Projektit</a>
+  </nav>
+  <button class="icon-btn hamburger" id="menuBtn" aria-label="Avaa valikko">☰</button>
+</header>
 
   <main>
     <section class="hero">
@@ -35,7 +36,54 @@
       </ul>
     </section>
 
+<section id="education" class="card">
+  <div class="section-head">
+    <h2>Koulutus:</h2>
+    <button class="toggle-btn" onclick="toggleEdu()">Näytä lisää</button> 
+  </div>
 
+  <!-- teaser näkyy aina kun sisältö on suljettu -->
+  <div id="edu-teaser">
+    <p><i><b>Turun yliopisto</b>, Materiaalitekniikka, DI...</i></p>
+  </div>
+
+  <div id="edu-content" class="collapsible">
+    <p><b>Turun yliopisto</b>, Materiaalitekniikka, DI, 2025</p>
+    <ul>
+      <li>Sivuaine Tietojenkäsittelytiede</li>
+        <ul>
+          <li>Ohjelmointi</li>
+        </ul>
+    
+      <li>Pääaineen opintoja:
+        <ul>
+          <li>Suuntaus Terveysteknologian materiaalit</li>
+          <li>Signaaliprosessointi mm. EKG</li>
+          <li>Materiaalit ja biologiset ympäristöt, implantit</li>
+          <li>Nanoteknologiat</li>
+          <li><a href="https://urn.fi/URN:NBN:fi-fe2025051646316" target="_blank">Diplomityö, Hiilinanoputkien käyttö dopamiinin mittauksessa</a></li>
+        </ul>
+      </li>
+    </ul>
+    <p><b>Turun ammattikorkeakoulu</b>, Energia- ja ympäristötekniikan insinööri, 2019</p>
+        <ul>
+          <li>Ympäristötekniikka</li>
+          <ul>
+          <li>Raaka- ja jäteveden käsittely</li>
+          <li>Vesiverkostot</li>
+          <li>Ympäristöakustiikka</li>
+          </ul>
+          <li>Energiatekniikka</li>
+          <ul>
+            <li>Lämpöoppi</li>
+            <li>Pumput</li>
+            <li>Uusiutuvat energiat, akustot</li>
+          </ul>
+          <li><a href="https://urn.fi/URN:NBN:fi:amk-2019092319171" target="_blank">Opinnäytetyö, Lean</a></li>
+        </ul>
+      </li>
+    </ul>
+</section>
     
 
     <section id="cv" class="card">
@@ -195,4 +243,5 @@
   <script src="app.js"></script>
 </body>
 </html>
+
 
