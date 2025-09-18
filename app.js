@@ -19,6 +19,26 @@ function toggleCv() {
   }
 }
 
+function toggleEdu() {
+  const content = document.getElementById("edu-content");
+  const teaser = document.getElementById("edu-teaser");
+  const btn = document.querySelector("#education .toggle-btn");
+
+  if (content.style.maxHeight) {
+    // jos auki → suljetaan
+    content.style.maxHeight = null;
+    content.style.opacity = 0;
+    teaser.style.display = "block";   // tuo teaser näkyviin
+    btn.textContent = "Näytä lisää";
+  } else {
+    // jos kiinni → avataan
+    content.style.maxHeight = content.scrollHeight + "px";
+    content.style.opacity = 1;
+    teaser.style.display = "none";   // piilota teaser
+    btn.textContent = "Näytä vähemmän";
+  }
+}
+
 
 
 const projects = [
